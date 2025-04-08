@@ -58,7 +58,7 @@ function Stats() {
             </div>
         </div>
         {/* cards 3+4 */}
-        <div className="mt-6 flex gap-10 lg:gap-24">
+        <div className="mt-6 flex gap-10 lg:gap-23">
           {/* card 3  */}
           <div className="flex items-center gap-3">
               <div>
