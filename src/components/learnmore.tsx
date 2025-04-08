@@ -18,7 +18,7 @@
 
 function LearnMore() {
     return (
-      <div className="flex flex-col lg:flex-row justify-around p-8 lg:p-24 font-primary items-center">
+      <div className="flex flex-col lg:flex-row text-center lg:text-left justify-around p-8 lg:p-24 font-primary items-center">
         {/* Image Section */}
         <div>
           <img
