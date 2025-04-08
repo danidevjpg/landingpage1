@@ -1,6 +1,3 @@
-import { PiUsersBold } from "react-icons/pi"; //Users Icon
-import { FaHandsPraying } from "react-icons/fa6"; //Prayer Hands Icon
-
 function Stats() {
   return (
     <div className="bg-gray-50 font-primary p-12">
