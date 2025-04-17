@@ -5,6 +5,7 @@ import Header from './components/header'
 import {Clients, CommunityManage} from './components/clients'
 import LearnMore from './components/learnmore'
 import Stats from './components/stats'
+import { HowToDesign } from './components/howtodesign'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
       <CommunityManage/>
       <LearnMore/>
       <Stats/>
+      <HowToDesign/>
     </div>
   )
 }

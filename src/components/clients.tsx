@@ -108,7 +108,7 @@ function Clients() {
         {/* Cards Section */}
         <div
           id="cards"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12"
+          className="flex justify-around mt-12"
         >
           {/* Card 1 */}
           <div
