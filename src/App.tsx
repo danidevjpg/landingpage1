@@ -5,7 +5,8 @@ import Header from './components/header'
 import {Clients, CommunityManage} from './components/clients'
 import LearnMore from './components/learnmore'
 import Stats from './components/stats'
-import { HowToDesign } from './components/howtodesign'
+import { HowToDesign, HowToDesign2 } from './components/howtodesign'
+import { Marketing } from './components/marketing'
 function App() {
 
   return (
@@ -18,6 +19,8 @@ function App() {
       <LearnMore/>
       <Stats/>
       <HowToDesign/>
+      <HowToDesign2/>
+      <Marketing/>
     </div>
   )
 }
