@@ -7,10 +7,10 @@ import { FaArrowRight } from "react-icons/fa6"; //arrow right icon
 
 function HowToDesign() {
     return (
-        <div className="flex justify-around py-12">
+        <div className="hidden lg:flex justify-around py-12">
             {/* Left Section: Image */}
             <div>
-                <img className="w-96 h-96" src="HowToDesingImg.svg" alt="How to Design Illustration" />
+                <img className="w-96 h-96 mt-16 lg:mt-0" src="HowToDesingImg.svg" alt="How to Design Illustration" />
             </div>
 
             {/* Right Section: Text Content */}
@@ -45,9 +45,9 @@ function HowToDesign() {
 
 function HowToDesign2(){
     return (
-        <div className="flex justify-center gap-16 bg-gray-50 py-12">
+        <div className="hidden lg:flex justify-center gap-16 bg-gray-50 py-12">
             <div>
-                <img src="HowToDesignImg2.svg" className="h-96" alt="" />
+                <img src="HowToDesignImg2.svg" className="h-96 ms-6" alt="" />
             </div>
             <div className="flex-col">
                 <div>
@@ -79,7 +79,7 @@ function HowToDesign2(){
                         <img src="CompanyLogo1.svg" alt="" />
                     </div>
                     <div className="flex cursor-pointer">
-                        <div><p className="text-primary mt-1">Meet all customers</p></div>
+                        <div><p className="text-primary lg:mt-1">Meet all customers</p></div>
                         <div>
                         <FaArrowRight className="mt-2 ms-2 text-primary"/>
                         </div>

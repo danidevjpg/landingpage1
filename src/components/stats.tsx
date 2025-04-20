@@ -35,7 +35,7 @@ function Stats() {
       {/* Stats Section */}
       <div>
         {/* Cards Row 1 (Cards 1 and 2) */}
-        <div className="flex gap-6 lg:gap-24 mt-12 lg:mt-0">
+        <div className="flex justify-around lg:gap-24 mt-12 lg:mt-0">
           {/* Card 1: Members */}
           <div>
             <div className="flex items-center gap-3">
@@ -70,7 +70,7 @@ function Stats() {
         </div>
 
         {/* Cards Row 2 (Cards 3 and 4) */}
-        <div className="mt-6 flex gap-10 lg:gap-23">
+        <div className="mt-6 justify-around flex  lg:gap-23">
           {/* Card 3: Event Bookings */}
           <div className="flex items-center gap-3">
             {/* Icon */}

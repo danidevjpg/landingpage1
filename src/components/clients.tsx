@@ -108,7 +108,7 @@ function Clients() {
         {/* Cards Section */}
         <div
           id="cards"
-          className="flex justify-around mt-12"
+          className="flex justify-around mt-12 flex-col lg:flex-row gap-12 lg:gap-0 items-center"
         >
           {/* Card 1 */}
           <div
