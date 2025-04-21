@@ -16,7 +16,7 @@ function App() {
       <Header/>
       <Clients/>
       <CommunityManage/>
-      <LearnMore/>
+      <div className="border-b border-white"><LearnMore/></div>
       <Stats/>
       <HowToDesign/>
       <HowToDesign2/>

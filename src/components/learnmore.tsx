@@ -18,7 +18,7 @@
 
 function LearnMore() {
     return (
-      <div className="flex flex-col lg:flex-row text-center lg:text-left justify-around p-8 lg:p-24 font-primary items-center">
+      <div className="  dark:text-white dark:mt-3  bg-gray-50 dark:bg-gray-800 flex flex-col lg:flex-row text-center lg:text-left justify-around p-8 lg:p-24 font-primary items-center">
         {/* Image Section */}
         <div>
           <img
@@ -32,20 +32,20 @@ function LearnMore() {
         <div className="flex flex-col gap-6 mt-8 lg:mt-0">
           {/* Title */}
           <div>
-            <h1 className="text-3xl font-semibold text-secondary/90">
+            <h1 className="text-3xl font-semibold text-secondary/90 dark:text-white ">
               The unseen of spending three
-              <br /> years at Pixelgrade
+              <br className="hidden lg:block" /> years at Pixelgrade
             </h1>
           </div>
   
           {/* Description */}
           <div>
-            <p className="text-secondary/70">
+            <p className="text-secondary/70 dark:text-white ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              <br /> sit amet justo ipsum. Pellentesque placerat vestibulum lorem sed
-              <br /> porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus
+              <br className="hidden lg:block" /> sit amet justo ipsum. Pellentesque placerat vestibulum lorem sed
+              <br className="hidden lg:block" />  porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus
               pretium auctor. Etiam
-              <br /> quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum
+              <br className="hidden lg:block" />  quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum
               pulvinar odio.
             </p>
           </div>

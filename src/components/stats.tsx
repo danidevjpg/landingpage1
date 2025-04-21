@@ -35,10 +35,10 @@ function Stats() {
       {/* Stats Section */}
       <div>
         {/* Cards Row 1 (Cards 1 and 2) */}
-        <div className="flex justify-around lg:gap-24 mt-12 lg:mt-0">
+        <div className="flex-col flex lg:flex-row items-center gap-12 mb-6 lg:justify-around lg:gap-24 mt-12 lg:mt-0 ">
           {/* Card 1: Members */}
           <div>
-            <div className="flex items-center gap-3">
+            <div className="flex lg:flex-row flex-col items-center lg:gap-3">
               {/* Icon */}
               <div>
                 <PiUsersBold className="w-10 h-10 text-primary dark:text-white mt-auto mb-auto" />
@@ -47,14 +47,14 @@ function Stats() {
               <div>
                 <div className="font-bold text-2xl">2,245,341</div>
                 <div>
-                  <p className="text-secondary/50 dark:text-white">Members</p>
+                  <p className="text-secondary/50 dark:text-white text-center lg:text-left">Members</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Card 2: Clubs */}
-          <div className="flex items-center gap-3">
+          <div className="flex lg:flex-row flex-col items-center lg:gap-3">
             {/* Icon */}
             <div>
               <BsSuitClub className="w-10 h-10 text-primary dark:text-white mt-auto mb-auto" />
@@ -63,23 +63,23 @@ function Stats() {
             <div>
               <div className="font-bold text-2xl">46,328</div>
               <div>
-                <p className="text-secondary/50 dark:text-white">Clubs</p>
+                <p className="text-secondary/50 dark:text-white text-center lg:text-left">Clubs</p>
               </div>
             </div>
           </div>
         </div>
 
         {/* Cards Row 2 (Cards 3 and 4) */}
-        <div className="mt-6 justify-around flex  lg:gap-23">
+        <div className="flex-col flex lg:flex-row items-center gap-12 mb-6 lg:justify-around lg:gap-24 mt-12 lg:mt-0 ">
           {/* Card 3: Event Bookings */}
-          <div className="flex items-center gap-3">
+          <div className="flex lg:flex-row flex-col items-center lg:gap-3">
             {/* Icon */}
             <div>
               <TbHandClick className="w-10 h-10 text-primary dark:text-white mt-auto mb-auto" />
             </div>
             {/* Text */}
             <div>
-              <div className="font-bold text-2xl">828,867</div>
+              <div className="font-bold text-2xl text-center lg:text-left">828,867</div>
               <div>
                 <p className="text-secondary/50 dark:text-white">
                   Event Bookings
@@ -89,7 +89,7 @@ function Stats() {
           </div>
 
           {/* Card 4: Payments */}
-          <div className="flex items-center gap-3">
+          <div className="flex lg:flex-row flex-col items-center lg:gap-3">
             {/* Icon */}
             <div>
               <CiCreditCard1 className="w-10 h-10 text-primary dark:text-white mt-auto mb-auto" />
@@ -98,7 +98,7 @@ function Stats() {
             <div>
               <div className="font-bold text-2xl">1,926,436</div>
               <div>
-                <p className="text-secondary/50 dark:text-white">Payment</p>
+                <p className="text-secondary/50 dark:text-white text-center lg:text-left">Payment</p>
               </div>
             </div>
           </div>

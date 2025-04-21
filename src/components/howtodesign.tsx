@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa6"; //arrow right icon
 
 function HowToDesign() {
     return (
-        <div className="hidden lg:flex justify-around py-12">
+        <div className="hidden lg:flex justify-around py-12 dark:bg-gray-800">    
             {/* Left Section: Image */}
             <div>
                 <img className="w-96 h-96 mt-16 lg:mt-0" src="HowToDesingImg.svg" alt="How to Design Illustration" />
@@ -17,14 +17,14 @@ function HowToDesign() {
             <div className="flex-col">
                 {/* Title Section */}
                 <div>
-                    <h1 className="font-semibold text-3xl mt-6 text-secondary/90">
+                    <h1 className="font-semibold text-3xl mt-6 text-secondary/90  dark:text-white">
                         How to design your site footer like<br /> we did
                     </h1>
                 </div>
 
                 {/* Description Section */}
                 <div className="mt-6">
-                    <p className="text-secondary/50">
+                    <p className="text-secondary/50  dark:text-white">
                         Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt<br />
                         molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at<br />
                         libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta<br />
@@ -42,22 +42,21 @@ function HowToDesign() {
         </div>
     );
 }
-
 function HowToDesign2(){
     return (
-        <div className="hidden lg:flex justify-center gap-16 bg-gray-50 py-12">
+        <div className="hidden lg:flex justify-center gap-16 bg-gray-50 py-12 dark:bg-gray-800 ">
             <div>
                 <img src="HowToDesignImg2.svg" className="h-96 ms-6" alt="" />
             </div>
             <div className="flex-col">
                 <div>
-                    <p className="text-secondary/60 mb-6 mt-2">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus<br/> tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida<br/> enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie<br/> mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse<br/> eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien,<br/> vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum<br/> id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+                    <p className="text-secondary/60 mb-6 mt-2  dark:text-white">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus<br/> tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida<br/> enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie<br/> mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse<br/> eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien,<br/> vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum<br/> id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
                 </div>
                 <div>
                     <h1 className="text-xl text-primary font-semibold mb-3">Tim Smith</h1>
                 </div>
                 <div>
-                    <p className="text-secondary/60">British Dragon Boat Racing Association</p>
+                    <p className="text-secondary/60  dark:text-white">British Dragon Boat Racing Association</p>
                 </div>
                 <div className="mt-14 flex gap-12">
                     <div>
